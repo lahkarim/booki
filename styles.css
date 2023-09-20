@@ -1,0 +1,38 @@
+* {
+font-family: 'Lugrasimo', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+ }
+
+.container {
+    max-width: 90rem;
+    margin: auto;
+}
+
+.container header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.right nav  {
+    display: flex;
+    flex-direction: row;
+    width: 21rem;
+    padding: 0 25px;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.left  {
+    padding: 30px 50px;
+    
+}
+
+.left img {
+    width: 4rem;
+    height: 1.25rem;
+}
