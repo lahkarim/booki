@@ -55,27 +55,85 @@ padding: 0;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 8px;
 }
+
 
 .searchBar {
     display: flex;
     flex-direction: row;
+    width: 24rem;
+    height: 3rem;
+    border: 1px solid grey;
+    align-items: center;
+    border-radius: 15px;
+    
+    
 }
 
 .searchBar i {
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: green;
     
-    height: 3.10rem;
 }
+
+.searchBar form {
+    width: 21rem;
+}
+
+.searchText {
+background-color: aqua;
+height: 3rem;
+padding-left: 5px;
+
+}
+
+.search {
+    border: 1px solid blue;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px 16px
+}
+
+
+
+
 .filterBar {
     display: flex;
     flex-direction: row;
-    
+    gap: 1rem;
+    align-items: center;
+    width: 48rem;
+    height: 3rem;
+    gap: 24px;
 }
+
+
 
 .filter {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1.56rem;
+    padding: 4px 19px;
+
 }
 
+
+
+.filter p {
+    margin-left: 10px;
+}
+
+.infoBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoBar p {
+    margin-left: 5px;
+}
 
 
