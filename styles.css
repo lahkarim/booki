@@ -15,7 +15,7 @@ padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    margin-bottom: 30px;
 }
 
 .right nav  {
@@ -36,3 +36,46 @@ padding: 0;
     width: 4rem;
     height: 1.25rem;
 }
+
+.infoGroup {
+    width: 84rem;
+    height: 18rem;
+    /* background-color: blueviolet; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.19rem;
+    
+    
+}
+
+.headline h1 {
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchBar i {
+    
+    height: 3.10rem;
+}
+.filterBar {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
