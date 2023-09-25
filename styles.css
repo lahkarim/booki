@@ -12,6 +12,7 @@ padding: 0;
     margin: auto;
     padding: 0 50px;
     box-sizing: border-box;
+    
 }
 
 .container header {
@@ -28,10 +29,12 @@ padding: 0;
     padding: 0 25px;
     justify-content: space-around;
     padding-top: 10px;
+   
 }
 
 .left  {
     padding: 30px 50px;
+    
     
 }
 
@@ -210,11 +213,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
+    
 }
 
 .populaires-cards img {
@@ -246,3 +251,28 @@ a {
     margin-bottom: 5px;
 }
 
+
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+}
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 180px;
+    
+}
+
+.hebergements-title {
+    
+    margin-bottom: 30px;
+}
+
+.afficher {
+    font-weight: bold;
+    margin-top: 30px;
+}
