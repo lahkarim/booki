@@ -315,7 +315,32 @@ a {
 }
 
 .activites-cards .card .card-txt {
-    background-color: aquamarine;
+    
     padding-top: 10px;
     padding-left: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.footernav nav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+
+.nava1 {
+color: #000;
+/* Title/Filter */
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
