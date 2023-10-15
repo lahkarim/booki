@@ -55,6 +55,7 @@ padding: 0;
     display: flex;
     flex-direction: column;
     gap: 2.19rem;
+    margin-bottom: 20px;
     
     
     
@@ -125,6 +126,7 @@ padding: 0;
 height: 90%;
 width: 100%;
 padding-left: 5px;
+font-size: 20px;
 
 }
 
@@ -177,7 +179,7 @@ padding-left: 5px;
     align-items: center;
     border: 1px solid black;
     border-radius: 1.56rem;
-    padding: 4px 19px;
+    padding: 10px 27px;
     color:#5078f2
 }
 
@@ -186,6 +188,8 @@ padding-left: 5px;
 .filter p {
     margin-left: 10px;
     color: #000;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .infoBar {
@@ -234,6 +238,10 @@ a {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+}
+
+.onestar {
+    color: #F2F2F2;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -316,16 +324,15 @@ a {
 
 .hebergements-cards {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
 }
 
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 180px;
+    width: 240px;
+    height: 200px;
     
 }
 
@@ -336,13 +343,14 @@ a {
 
 .afficher {
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 50px;
 
 }
 
 .hebergements-cards .card h3 {
     margin-top: 4px;
     margin-bottom: 4px;
+    font-size: 20px;
 }
 
 .hebergements-cards .card .card-content {
@@ -386,6 +394,11 @@ a {
     height: 380px;
 }
 
+.activites-cards .card p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
 .activites-title {
     margin-bottom: 30px;
     margin-left: 30px;
@@ -402,7 +415,8 @@ a {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    background-color: #f2f2f2;   
+    background-color: #f2f2f2;
+    margin-top: 30px; 
 }
 
 .footernav nav {
@@ -413,13 +427,8 @@ a {
 }
 
 .nava1 {
-color: #000;
-/* Title/Filter */
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+font-size: 20px;
+font-weight: bold;
 }
 
 
